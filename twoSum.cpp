@@ -18,7 +18,6 @@ vector<int> twoSum(vector<int>& nums, int target) {
       while (solutionNotFound) {
          
          for (int i = indexBase; i < nums.size(); i++) {
-            
             baseAndCurrentSum = nums[i] + nums[indexBase];
             //cout << baseAndCurrentSum << endl;
             if (baseAndCurrentSum == target) {
