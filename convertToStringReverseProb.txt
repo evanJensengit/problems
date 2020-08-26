@@ -1,0 +1,13 @@
+  vector<int> unreversed;
+   int divide = 10;
+   string stringOfNum = to_string(num);
+   string letter;
+   int i = 0;
+   if (stringOfNum.at(0) == '-')
+      i = 1;
+   
+   for ( i; i < stringOfNum.length(); i++) {
+      letter = stringOfNum.at(i);
+      
+   }
+   return num;

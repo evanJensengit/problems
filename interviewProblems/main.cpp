@@ -7,9 +7,20 @@
 //
 
 #include <iostream>
+#include "problems.h"
+using namespace std;
 
-int main(int argc, const char * argv[]) {
+int main() {
    // insert code here...
-   std::cout << "Hello, World!\n";
-   return 0;
+   problems a;
+   int num = 2147;
+   int reversedNum = a.reverse(num);
+  // cout << reverse(num) << endl;
+   cout << reversedNum << endl;
+   
+   int num2 = 2147;
+   int b = num2 % 10;
+//cout << b << endl;
+   
+   
 }

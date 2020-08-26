@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CED55FF724F1A05A00D022E3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED55FF624F1A05A00D022E3 /* main.cpp */; };
+		CED55FFF24F1A07500D022E3 /* problems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED55FFD24F1A07500D022E3 /* problems.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		CED55FF324F1A05A00D022E3 /* interviewProblems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = interviewProblems; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED55FF624F1A05A00D022E3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CED55FFD24F1A07500D022E3 /* problems.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = problems.cpp; sourceTree = "<group>"; };
+		CED55FFE24F1A07500D022E3 /* problems.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = problems.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				CED55FF624F1A05A00D022E3 /* main.cpp */,
+				CED55FFD24F1A07500D022E3 /* problems.cpp */,
+				CED55FFE24F1A07500D022E3 /* problems.h */,
 			);
 			path = interviewProblems;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED55FF724F1A05A00D022E3 /* main.cpp in Sources */,
+				CED55FFF24F1A07500D022E3 /* problems.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
